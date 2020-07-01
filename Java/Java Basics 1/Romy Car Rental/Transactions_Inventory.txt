@@ -1,0 +1,11 @@
+Current Date: Jan 1, 2013
+ 
+Pick up Date: Jan 23, 2013
+Return Date: Feb 2, 2013 = Days: 0
+Full Name: Tony Strak
+Age: 38
+Location: California
+Contact: 5353533535
+Car: Van-2009
+Total Rent Price: 0.00 
+--------------------------------------------------

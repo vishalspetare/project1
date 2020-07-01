@@ -1,0 +1,39 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>counting the dropdown list</title>
+<script>
+function myFunct(elem)
+{
+    var e = null;
+    if("string"==typeof(elem))
+        e = document.getElementById(elem);
+    else
+        e = elem
+            
+
+    for(var i = 0, limit = e.options.length; i < limit; i++)
+    {
+        alert(e.options[i].value + " " + e.options[i].text);
+    }
+        alert("The selected option is: "+e.options.selectedIndex);
+}
+
+
+//--></script>
+</head>
+<body>
+<form>
+      <select id="list" onchange="myFunct(this)">
+            <option value="1">alpha</option>
+            <option value="2">beta</option>
+            <option value="3">gamma</option>
+      </select>
+      
+
+      <input type="button" onclick="myFunct('list')" value="Report"/>
+</form>
+</body>
+</html>
